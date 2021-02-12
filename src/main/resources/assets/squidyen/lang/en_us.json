@@ -1,0 +1,16 @@
+{
+  "item.squidyen.1_yen": "1¥",
+  "item.squidyen.5_yen": "5¥",
+  "item.squidyen.10_yen": "10¥",
+  "item.squidyen.50_yen": "50¥",
+  "item.squidyen.100_yen": "100¥",
+  "item.squidyen.500_yen": "500¥",
+  "item.squidyen.1k_yen": "1000¥",
+  "item.squidyen.10k_yen": "10000¥",
+  "item.squidyen.5k_yen": "5000¥",
+  "item.squidyen.fake_yen": "10000¥",
+  "item.squidyen.100k_yen": "100000¥",
+  "item.squidyen.100kfake_yen": "100000¥",
+  "item.squidyen.1_million_yen": "1 million yen",
+  "item.squidyen.1_million_yen_fake": "1 million yen"
+}

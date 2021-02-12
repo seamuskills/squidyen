@@ -1,0 +1,48 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[32,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="https://github.com/Cibernet83/Splatcraft/issues/" #optional
+
+[[mods]] #mandatory
+
+modId="squidyen" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Squid Yen" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="we don't have one... NERD" #optional
+
+logoFile="logo.png" #optional
+
+credits="thanks to Jemi and Ciber for the help" #optional
+
+authors="seamus" #optional
+
+description='''
+Dummy currency for the splatcraft server.
+based on japanese yen
+'''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[32,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1]"
+    ordering="NONE"
+    side="BOTH"
