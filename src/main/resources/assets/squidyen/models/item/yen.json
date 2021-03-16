@@ -1,0 +1,68 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "squidyen:item/1_yen"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "squidyen:value": 5
+      },
+      "model": "squidyen:item/5_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 10
+      },
+      "model": "squidyen:item/10_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 50
+      },
+      "model": "squidyen:item/50_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 100
+      },
+      "model": "squidyen:item/100_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 500
+      },
+      "model": "squidyen:item/500_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 1000
+      },
+      "model": "squidyen:item/1000_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 5000
+      },
+      "model": "squidyen:item/5000_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 10000
+      },
+      "model": "squidyen:item/10000_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 100000
+      },
+      "model": "squidyen:item/100000_yen"
+    },
+    {
+      "predicate": {
+        "squidyen:value": 1000000
+      },
+      "model": "squidyen:item/1000000_yen"
+    }
+  ]
+}

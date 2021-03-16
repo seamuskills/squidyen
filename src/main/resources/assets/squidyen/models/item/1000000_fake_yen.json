@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "squidyen:item/1000000_fake_yen"
+  }
+}

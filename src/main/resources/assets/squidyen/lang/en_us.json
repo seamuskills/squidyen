@@ -1,0 +1,13 @@
+{
+  "mod.squidyen.name": "Squid Yen",
+  "mod.squidyen.description": "Description",
+
+  "itemGroup.squidyen": "Squid Yen (%s)",
+  "itemGroup.squidyen.title": "Squid Yen",
+  "itemGroup.tab.squidyen:all": "All",
+  "itemGroup.tab.squidyen:yen": "Yen",
+  "itemGroup.tab.squidyen:fake_yen": "Fake Yen",
+
+  "item.squidyen.yen" : "%1$s¥",
+  "item.squidyen.fake_yen" : "%1$s¥"
+}

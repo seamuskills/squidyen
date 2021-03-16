@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "license": "MIT",
+  "id": "squidyen",
+  "version": "${version}",
+
+  "name": "Squid Yen",
+  "description": "Description",
+  "icon": "pack.png",
+
+  "authors": [
+    "Seamuskills",
+    "Andante"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/seamuskills/squidyen",
+    "issues": "https://github.com/seamuskills/squidyen/issues"
+  },
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.seamus.squidyen.SquidYen"
+    ],
+    "client": [
+      "me.seamus.squidyen.SquidYenClient"
+    ],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": ">=0.32.0",
+    "chord": ">=1.5.3",
+    "minecraft": ">=1.16.2"
+  }
+}
